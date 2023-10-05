@@ -52,6 +52,7 @@ def text_to_speech(text, tld):
         tts.save(f"temp/{my_file_name}.mp3")
         return my_file_name, text
     else:
+        st.write("cosiaco")
 
 
 #display_output_text = st.checkbox("Verifica el texto")
