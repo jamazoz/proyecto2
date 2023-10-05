@@ -22,6 +22,7 @@ except:
 with st.sidebar:
       filtro = st.radio("Aplicar Filtro",('Con Filtro', 'Sin Filtro'))
 
+text = None
 
 if img_file_buffer is not None:
     # To read image file buffer with OpenCV:
