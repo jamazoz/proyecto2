@@ -1,1 +1,1 @@
-# proyecto2
+# Reconocimiento Óptico de Caracteres
