@@ -2,7 +2,14 @@ import streamlit as st
 import cv2
 import numpy as np
 import pytesseract
+import os
+import time
+import glob
+import os
+from gtts import gTTS
 from PIL import Image
+
+
 
 
 st.title("Reconocimiento óptico de Caracteres")
