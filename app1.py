@@ -9,15 +9,15 @@ import os
 from gtts import gTTS
 from PIL import Image
 
-try:
-    os.mkdir("temp")
-except:
-    pass
-
 
 st.title("Reconocimiento óptico de Caracteres")
 
 img_file_buffer = st.camera_input("Toma una Foto")
+
+try:
+    os.mkdir("temp")
+except:
+    pass
 
 with st.sidebar:
       filtro = st.radio("Aplicar Filtro",('Con Filtro', 'Sin Filtro'))
