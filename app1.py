@@ -9,7 +9,10 @@ import os
 from gtts import gTTS
 from PIL import Image
 
-
+try:
+    os.mkdir("temp")
+except:
+    pass
 
 
 st.title("Reconocimiento óptico de Caracteres")
