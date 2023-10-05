@@ -56,7 +56,7 @@ def text_to_speech(text, tld):
 #display_output_text = st.checkbox("Verifica el texto")
 
 if st.button("convertir"):
-    if(text != False):
+    if(text is not None):
         result, output_text = text_to_speech(text, tld)
         audio_file = open(f"temp/{result}.mp3", "rb")
         audio_bytes = audio_file.read()
