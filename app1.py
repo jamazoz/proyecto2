@@ -12,7 +12,7 @@ from PIL import Image
 
 st.title("Reconocimiento óptico de Caracteres")
 
-img_file_buffer = st.camera_input("Toma una Foto")
+img_file_buffer = st.camera_input("Toma una Foto y presiona convertir una vez el texto haya sido detectado.")
 
 try:
     os.mkdir("temp")
